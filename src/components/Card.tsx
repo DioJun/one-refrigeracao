@@ -1,4 +1,4 @@
-import { Box, Center, Image } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { Header } from './Header';
 
 export const Card = () => {

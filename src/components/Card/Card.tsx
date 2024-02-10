@@ -2,7 +2,7 @@ import './Card.css'
 
 export const Card = () => {
     return(
-        <div className="conatiner-card">
+        <div className="conatainer-card">
 
             <div className='slider'>
 
@@ -11,29 +11,35 @@ export const Card = () => {
 
                 <div className='services'>
 
-                    <span className='card card1'>
+                    <div className='card card1'>
                         <div>
-                            <img src='./cardImg/1.jpg' alt='01' />
+                            <img src="../cardImg/1.png" alt="" />
                             <p>Instalação e Soluções</p>
                         </div>
-                    </span>
+                    </div>
 
-                    <span className='card card2'>
+                    <div className='card card2'>
                         <div>
                             <img src="/images/icon-box-lightning.svg" alt="" />
                             <p>Conserto e Manutenção</p>
                         </div>
-                    </span>
+                    </div>
 
-                    <span className='card card3'>
+                    <div className='card card3'>
                         <div>
                             <img src="/images/icon-box-lightning.svg" alt="" />
                             <p>Qualidade e Confiança</p>
                         </div>
-                    </span>
+                    </div>
                 
                 </div>
 
+            </div>
+
+            <div className='apresentation'>
+                <h1>SERVIÇO COMPLETO PARA SEU</h1>
+                <h2>SISTEMA DE REFRIGERAÇÃO</h2>
+                <button type='button'>Whatsapp</button>
             </div>
 
         </div>

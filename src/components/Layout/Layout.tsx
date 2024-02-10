@@ -4,9 +4,9 @@ import './Layout.css'
 
 export const Layout = () => {
     return(
-        <>
+        <main className='main'>
             <Header />
             <Card />
-        </>
+        </main>
     )
 }

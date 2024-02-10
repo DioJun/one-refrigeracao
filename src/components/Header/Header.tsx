@@ -1,4 +1,4 @@
-import logo from './headerImg/onelogo2.png'
+import logo from './headerImg/onelogo.png'
 import './Header.css'
 
 export const Header = () => {
@@ -7,12 +7,6 @@ export const Header = () => {
 
       <div className='img'>
         <img src={logo} alt="Logo" className='imgLogo'/>
-      </div>
-
-      <div className='text'>
-        <h1>
-            Assistência Técnica em Refrigeração e Climatização
-        </h1>
       </div>
       
     </div>

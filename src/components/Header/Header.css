@@ -4,9 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    padding-top: 15px;
-    margin-bottom: 15px;
+    margin: 0;
+    padding: 15px 0 15px 0;
   }
   
 .img {
@@ -17,7 +16,7 @@
 }
   
 .imgLogo {
-  width: 38vh;
+  width: 54vh;
   height: auto;
 }
   
@@ -42,16 +41,5 @@
     flex-direction: column;
     height: 22vh;
   }
-  .img {
-    margin-bottom: 7px; 
-  }
-  .text {
-    padding-left: 0px;
-    display: flex;
-    align-items: center;
-    width: 50vh;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 11px;
-  }
+
 }

@@ -1,5 +1,5 @@
-import { AbsoluteCenter, Box, Center, Divider } from "@chakra-ui/react";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { AbsoluteCenter, Box, Center} from "@chakra-ui/react";
+import { FaFacebook} from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import './Footer.css'
 

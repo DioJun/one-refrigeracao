@@ -1,6 +1,6 @@
 import './Card.css'
-import { ChakraProvider, Button } from '@chakra-ui/react'
-import { FaWhatsapp } from "react-icons/fa6";
+import { ChakraProvider} from '@chakra-ui/react'
+
 
 export const Card = () => {
     return(

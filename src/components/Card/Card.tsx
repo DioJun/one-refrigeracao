@@ -33,9 +33,6 @@ export const Card = () => {
                 <div className='apresentation'>
                     <h1>SERVIÇO COMPLETO PARA SEU</h1>
                     <h2>SISTEMA DE REFRIGERAÇÃO</h2>
-                    <Button margin='15px' bgColor='#27bf3a' color='#ffffff' leftIcon={<FaWhatsapp className='contact-btn'/>}>
-                        Whatsapp
-                    </Button>
                 </div>
 
             </div>

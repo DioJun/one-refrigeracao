@@ -52,13 +52,16 @@ export const Card = () => {
 
                     <div className='services'>
                         <div className={`card card1 ${isVisible ? 'fade-in visible' : ''}`} style={{ transitionDelay: '0.6s' }}>
-                            <p>Instalação e Soluções</p>
+                            <p className='description_title'>Instalação e Soluções</p>
+                            <p className='description'>Oferecemos serviços de instalação de sistemas de refrigeração eficientes e soluções personalizadas para atender às necessidades específicas do seu negócio. Nossa equipe qualificada garantirá uma instalação precisa e sem complicações, proporcionando a você tranquilidade e conforto.</p>
                         </div>
                         <div className={`card card2 ${isVisible ? 'fade-in visible' : ''}`} style={{ transitionDelay: '0.8s' }}>
-                            <p>Conserto e Manutenção</p>
+                            <p className='description_title'>Conserto e Manutenção</p>
+                            <p className='description'>Conte conosco para realizar o conserto e a manutenção do seu sistema de refrigeração com eficiência e rapidez. Nossos técnicos altamente capacitados estão preparados para identificar e resolver qualquer problema, garantindo o funcionamento contínuo e confiável dos seus equipamentos.</p>
                         </div>
                         <div className={`card card3 ${isVisible ? 'fade-in visible' : ''}`} style={{ transitionDelay: '1s' }}>
-                            <p>Qualidade e Confiança</p>
+                            <p className='description_title'>Qualidade e Confiança</p>
+                            <p className='description'>Na One Refrigeração, qualidade e confiança são nossos pilares. Utilizamos apenas os melhores materiais e técnicas de trabalho para garantir resultados excepcionais em todos os nossos serviços. Conte com nossa experiência e dedicação para obter soluções de refrigeração de alta qualidade e durabilidade.</p>
                         </div>
                     </div>
 

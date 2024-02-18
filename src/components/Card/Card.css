@@ -48,6 +48,20 @@
   }
 }
 
+/* Continuação do CSS existente */
+
+.card p {
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, sans-serif; /* Adicionando uma fonte de texto alternativa */
+  font-size: 15px; /* Tamanho da fonte */
+  padding: 10px; /* Espaçamento interno */
+}
+
+.card:hover {
+  transform: translateY(-15px); /* Efeito de levantamento suave ao passar o mouse */
+}
+
 .services {
   padding: 25px 70px 25px 70px;
   display: flex;
@@ -65,13 +79,25 @@
   width: 25%;
   height: 80%;
   background-color: rgba(76, 89, 104, .4);
-  transition: all .5s ease-in-out;
-
+  transition: all .3s ease-in-out;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1); /* Box shadow adicionado */
 }
 
-.card p {
+.card:hover {
+  transform: translateY(-15px); /* Efeito de levantamento suave ao passar o mouse */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta o box shadow ao passar o mouse */
+}
+
+.description_title {
+  font-family: 'Bakbak One', sans-serif;
+  text-shadow: 0.1em 0.1em 0.1em #000000;
   text-align: center;
   color: #ffffff;
+}
+
+
+.description {
+  border-top: rgb(113, 181, 255, .4) solid 3px;
 }
 
 .apresentation {
@@ -176,12 +202,11 @@
     height: 80%;
     background-color: rgba(76, 89, 104, .4);
     transition: all .5s ease-in-out;
-    margin-bottom: 25px;  
+    margin-bottom: 40px;  
   }
 
-  .card p {
-    border-top: rgb(113, 181, 255, .4) solid 3px;
-    text-align: center;
-    color: #ffffff;
+  .description {
+    font-size: 60px;
   }
+  
 }

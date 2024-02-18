@@ -127,11 +127,6 @@
   font-size: 50px;
 }
 
-
-
-
-
-  
 @keyframes animate {
   0%, 100% {
       background-image: url(./cardImg/2.jpg);

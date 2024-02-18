@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }  
+
 .main {
     background: linear-gradient(to top, #2d91c2 0%, #163f6c 100%);
     width:  100%;

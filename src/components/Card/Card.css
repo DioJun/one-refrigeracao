@@ -17,7 +17,7 @@
   text-align: center;
   text-shadow: 0.1em 0.1em 0.1em #000000;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .slider h2 {
@@ -29,7 +29,23 @@
   text-shadow: 0.1em 0.1em 0.1em #000000;
   color: #ffffff;
   margin-bottom: 40px;
-  box-shadow: 0 0 0 ;
+  box-shadow:  0px 0px 30px #86CEEB;
+  border: 5px solid #71b5ff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px #86CEEB;
+  box-shadow:  0px 0px 30px #86CEEB;
+  padding: 3px 6px;
+  margin-top: 15px;
+  animation: shadow-pulse 0.5s infinite alternate; /* Adiciona a animação de pulsação à sombra */
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0px 0px 30px #86CEEB;
+  }
+  100% {
+    box-shadow: 0px 0px 60px #86CEEB; /* Ajuste o tamanho da sombra conforme desejado */
+  }
 }
 
 .services {
@@ -140,14 +156,7 @@
   }
 
   .slider h2 {
-    margin-top: 15px;
     font-size: 17px;
-    border: 5px solid #71b5ff;
-    border-radius: 10px;
-    text-shadow: 0.1em 0.1em 0.1em #000000;
-    padding: 3px 6px;
-    -webkit-box-shadow: 0px 0px 30px #86CEEB;
-    box-shadow:  0px 0px 30px #86CEEB;
   }
   .services {
     padding: 0;

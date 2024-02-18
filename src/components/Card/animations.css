@@ -1,0 +1,10 @@
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px); /* Inicialmente, move o elemento para baixo */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Adiciona uma transição suave */
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0); /* Move o elemento de volta para a posição original */
+}

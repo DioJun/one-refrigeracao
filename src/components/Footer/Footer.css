@@ -8,3 +8,13 @@
     height: 45px;
     width: 50px;
 }
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+.developed {
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+}

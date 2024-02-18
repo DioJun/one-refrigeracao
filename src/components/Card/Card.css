@@ -85,7 +85,7 @@
 
 .card:hover {
   transform: translateY(-15px); /* Efeito de levantamento suave ao passar o mouse */
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7); /* Aumenta o box shadow ao passar o mouse */
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.7); /* Aumenta o box shadow ao passar o mouse */
 }
 
 .description_title {

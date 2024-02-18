@@ -98,6 +98,7 @@
 
 .description {
   border-top: rgb(113, 181, 255, .4) solid 3px;
+  text-align: start;
 }
 
 .apresentation {
@@ -183,6 +184,7 @@
 
   .slider h2 {
     font-size: 17px;
+    margin-bottom: 80px;
   }
   .services {
     padding: 0;
@@ -206,7 +208,42 @@
   }
 
   .description {
-    font-size: 60px;
+    font-size: 
   }
-  
+
+  .apresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    animation: animate 16s ease-in-out infinite;
+    position: relative;
+  }
+    
+  @keyframes animate {
+    0%, 100% {
+        background-image: url(./cardImg/m2.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+    25% {
+        background-image: url(./cardImg/m3.jpg);
+        background-size: cover;
+
+    }
+    50% {
+        background-image: url(./cardImg/m4.jpg);
+        background-size: cover;
+        background-position: left;
+
+    }
+    75% {
+        background-image: url(./cardImg/m5.jpg);
+        background-size: cover;
+    }
+  }
+
 }

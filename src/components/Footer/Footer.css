@@ -13,6 +13,10 @@
     display: flex;
     flex-direction: column;
 }
+
+.footerContainer a {
+    text-align: center;
+}
 .developed {
     align-items: center;
     justify-content: center;

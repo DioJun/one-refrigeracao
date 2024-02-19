@@ -11,6 +11,7 @@ const WhatsAppButton: React.FC<{ numero: string }> = ({ numero }) => {
 
   return (
     <a
+      className='whatsapp_button'
       href={`https://wa.me/55${numero}?text=${encodeURIComponent('Adorei seu artigo')}`}
       style={{
         position: 'fixed',

@@ -1,3 +1,8 @@
+.whatsapp_button {animation: bounce 2s infinite;}
+@keyframes  bounce{
+    0%,100% {transform: translateY(0);}
+    25% {transform: translateY(-20px);}
+}
 .icon {
     margin-top: 7px;
     margin-left: 8px;

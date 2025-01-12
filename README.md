@@ -127,8 +127,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## **Contact**
 For any inquiries or feedback, please contact the developer:
-- **Developer**: C.A.Y.F
-- **Workana Profile**: [C.A.Y.F on Workana](https://www.workana.com/freelancer/1c944ab88433a73d9ef59a489eb16ffc)
+- **Developer**: Dionisio Jr.
+- **Workana Profile**: [Dionisio Jr. on Workana](https://www.workana.com/freelancer/1c944ab88433a73d9ef59a489eb16ffc)
 
 ---
 

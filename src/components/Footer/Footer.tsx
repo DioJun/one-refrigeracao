@@ -17,7 +17,7 @@ export const Footer = () => {
                 </Box>
             </Center> */}
 
-            <a className="developed" href="https://www.workana.com/freelancer/1c944ab88433a73d9ef59a489eb16ffc" target="blank">Desenvolvido por C.A.Y.F</a>
+            <a className="developed" href="https://www.workana.com/freelancer/1c944ab88433a73d9ef59a489eb16ffc" target="blank">Desenvolvido por Dionisio Jr.</a>
 
 
         </div>

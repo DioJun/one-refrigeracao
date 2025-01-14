@@ -1,4 +1,4 @@
-[**PREVIEW**](one-refrigeracao.netlify.app)
+<a href="one-refrigeracao.netlify.app"> Site Preview </a>
 
 
 # One Refrigeração - React Application
